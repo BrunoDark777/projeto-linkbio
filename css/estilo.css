@@ -1,3 +1,167 @@
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Ysabeau Infant', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.secao-banner video{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.secao-banner{
+    width: 100%;
+    height: 100vh;
+}
+
+.img-perfil-titulo{
+    background: linear-gradient(90deg, #ffdf00, #009c3b);
+    width: 215px;
+    height: 215px;
+    border-radius: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow: 4px 2px 2px #000000;
+    margin-bottom: 70px;
+}
+
+.img-perfil img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.img-perfil-titulo h1{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.img-perfil-titulo h1::before{
+    content: "";
+    position: absolute;
+    width: 51px;
+    height: 5px;
+    background: linear-gradient(90deg, #ffdf00, #009c3b);
+    bottom: 1px;
+    left: 2px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px #000000;
+}
+
+.img-perfil-titulo h1 img{
+    position: absolute;
+    left: 98%;
+    bottom: 20%;
+    width: 20px;
+    height: 20px;
+}
+
+.links{
+    width: 76%;
+    min-width: 60%;
+    margin: 0 auto;
+}
+
+.links a{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: #02000063;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.links a:hover{
+    color: #000000;
+    background-color: #fff;
+}
+
+.links a img{
+    position: absolute;
+    left: 20px;
+    width: 30px;
+
+}
+
+.secao-tabela{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+
+    background-image: url('/img/imagem-de-fundo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.secao-tabela h2{
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 35px;
+    margin: 0px 0px 40px;
+
+}
+
+.secao-tabela table{
+    width: 80%;
+    min-width: 5%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.secao-tabela table thead tr th, tbody tr td{
+    padding: 20px;
+}
+
+.img-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+ .img-p img{
+    width: 30px;
+}
+
+table thead tr{
+    background-color: #000000cc;
+    color: #fff;
+}
+
+table tbody tr:nth-last-of-type(odd){
+    background-color: #ffffffad;
+}
+
+table tbody tr:nth-last-of-type(even){
+    background-color: #000000cc;
+    color: #fff;
+    
+}
+
 
